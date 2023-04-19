@@ -15,6 +15,10 @@ body {
     scroll-behavior: smooth;
 }
 
+.banner {
+    background: linear-gradient(159deg,#2d2d3a,#2b2b35);
+    height: 100vh;
+}
 .header-wrapper {
     align-items: center;
     -webkit-animation: header .5s ease-in-out;
@@ -26,6 +30,7 @@ body {
     padding: 1.5rem 0;
     position: relative;
     width: 80%;
+	display: block;
 }
 .header-wrapper .logo {
     align-items: center;
