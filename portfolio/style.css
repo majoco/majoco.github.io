@@ -136,6 +136,25 @@ div {
 .texts p {
     font-weight: 300;
 }
+.texts a {
+    background-color: #01be96;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    filter: drop-shadow(0 10px 10px rgba(1,190,149,.317647));
+    -webkit-filter: drop-shadow(0 10px 10px rgba(1,190,149,.318));
+    font-weight: 500;
+    margin-top: 3rem;
+    padding: 0.7rem 2rem;
+    transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    transition: transform .5s ease,-webkit-transform .5s ease;
+    -webkit-transition: transform .5s ease;
+    -moz-transition: transform .5s ease;
+    -ms-transition: transform .5s ease;
+    -o-transition: transform .5s ease;
+}
 .social {
     align-items: center;
     display: flex;
@@ -160,6 +179,36 @@ div {
     transition: transform .4s ease-in-out;
     transition: transform .4s ease-in-out,-webkit-transform .4s ease-in-out;
     width: 2.3rem;
+}
+.css-y5zeoq {
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-delay: 0ms;
+    animation-name: animation-9e64fq;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+.social .social-icons a {
+    color: #fff;
+    left: 50%;
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%,-153%);
+    -webkit-transform: translate(-50%,-153%);
+    -moz-transform: translate(-50%,-153%);
+    -ms-transform: translate(-50%,-153%);
+    -o-transform: translate(-50%,-153%);
+}
+.css-1k33q06 {
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.25rem;
 }
 
 
