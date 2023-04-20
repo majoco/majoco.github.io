@@ -288,6 +288,11 @@ div {
     z-index: -1;    
 }
 
+.thumb{
+    width: 120px;
+    height: 120px;
+}
+
 @media (min-width: 1200px){
     .css-1ecxf4 {
         flex-basis: 16.6667%;
