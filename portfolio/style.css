@@ -294,6 +294,13 @@ div {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+.div_skills{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 .slick-slide {
     margin: auto;
     text-align: center;
@@ -308,6 +315,12 @@ div {
 }
 .slick-next {    
     right: 5%;
+}
+.white{
+    color: white;
+}
+.tac{
+    text-align: center;
 }
 
 @media (min-width: 1200px){
