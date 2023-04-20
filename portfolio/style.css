@@ -288,9 +288,26 @@ div {
     z-index: -1;    
 }
 
+.corrousel{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.slick-slide {
+    margin: auto;
+    text-align: center;
+}
 .thumb{
     width: 120px;
     height: 120px;
+    margin: auto;
+}
+.slick-prev { 
+    left: 5%;
+}
+.slick-next {    
+    right: 5%;
 }
 
 @media (min-width: 1200px){
