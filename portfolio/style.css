@@ -403,6 +403,9 @@ div {
     width: 2rem;
 }
 .arrowUp a{
+    color: black;
+}
+.arrowUp a:hover{
     color: white;
 }
 
