@@ -410,6 +410,32 @@ div {
 }
 
 
+.loot {
+    justify-content: center;
+    align-items: center;
+    gap: 0 0.3rem;
+    padding: 11.2px 4.48px;
+    font-size: 16px;
+    background-color: rgb(235,236,240);
+    background-image: 'images/bg-grain.png';
+    background-size: 350px auto;
+}
+.loot .draggable {
+    margin-top: 0.2em;
+    flex-shrink: 1;
+}
+.draggable {
+    touch-action: none;
+}
+.loot .draggable svg {
+    width: 100%;
+    height: auto;
+    max-height: 3em;
+}
+.loot .draggable svg .shadow {
+    fill: var(--loot-shadow);
+}
+
 @media (min-width: 1200px){
     .css-1ecxf4 {
         flex-basis: 16.6667%;
