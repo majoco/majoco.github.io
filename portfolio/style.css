@@ -402,10 +402,10 @@ div {
     margin-top: 2rem;
     width: 2rem;
 }
-.arrowUp a{
+.arrowUp{
     color: black;
 }
-.arrowUp a:hover{
+.arrowUp:hover{
     color: white;
 }
 
