@@ -68,6 +68,9 @@ div {
 .right{
 	float: right;
 }
+.flex{
+    display: flex;
+}
 .header-wrapper .logo h1 {
     font-size: 1.2rem;
     font-weight: 600;
