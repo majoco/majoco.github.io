@@ -402,6 +402,9 @@ div {
     margin-top: 2rem;
     width: 2rem;
 }
+.arrowUp a{
+    color: white;
+}
 
 
 @media (min-width: 1200px){
