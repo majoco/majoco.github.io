@@ -495,7 +495,7 @@ div {
   padding: 5%;
   z-index: 9;
   position: relative;
-  font-family: "Mada", sans-serif;
+  font-family: "Mada", sans-serif !important;
 }
 .about .wrapper{
   max-width: 1064px;
@@ -504,17 +504,39 @@ div {
 .about h2 {
   color: black;
   z-index: 9;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #f0535d;
+  letter-spacing: 0.06rem;
 }
 .about h3 {
   color: black;
   z-index: 9;
+  line-height: 1.3;
+  text-transform: capitalize;
+  margin: 0 0 1rem;
+  color: #1c2273;
+  font-size: 32px;
+}
+.about h4{
+  color: #7689d8;
+  font-size: 26px;
+  margin-bottom: 20px;
 }
 .about p{
   color: #252525;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .flex {
   display: flex;
+}
+.container-img-profile{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .container-img-profile img {
   width: 300px;
