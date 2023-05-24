@@ -486,7 +486,7 @@ div {
   color: black;
   z-index: 9;
 }
-.about .container {
+.flex {
   display: flex;
 }
 .container-img-profile img {
