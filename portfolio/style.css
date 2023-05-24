@@ -15,6 +15,9 @@ body {
     -ms-linear-gradient(45deg, #1f262b 10%, #5f4d91 80%);
   background-image: url(images/overlay.png),
     linear-gradient(45deg, #1f262b 10%, #5f4d91 80%);
+
+  background-image: none;
+  background-color: #711ae2;
 }
 
 * {
@@ -463,6 +466,10 @@ div {
   background-position: center top;
   background-size: cover;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNjc5IDE5OC42Jz48cGF0aCBkPSdNODM5LjUgOTYuN0M0ODUuMyA5Ni43IDE3NC41IDU3LjkgMCAwdjE5OC42aDE2NzlWMGMtMTc0LjUgCTU3LjktNDg1LjMgOTYuNy04MzkuNSA5Ni43eicgZmlsbD0nI2ZmZicvPjwvc3ZnPg==);
+
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNjc5IDE5OC42Jz48cGF0aCBkPSdNODM5LjUgOTYuN0M0ODUuMyA5Ni43IDE3NC41IDU3LjkgMCAwdjE5OC42aDE2NzlWMGMtMTc0LjUgCTU3LjktNDg1LjMgOTYuNy04MzkuNSA5Ni43eicgZmlsbD0nI2ZmZicvPjwvc3ZnPg==);
+  top: 90vh;
+  height: 10vh;
 }
 
 @media (min-width: 1200px) {
