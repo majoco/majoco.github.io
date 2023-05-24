@@ -53,6 +53,7 @@ div {
   width: 80%;
   display: block;
   height: 80px;
+  z-index: 9;
 }
 .header-wrapper .logo {
   align-items: center;
@@ -450,6 +451,10 @@ div {
   margin-top: 0.2em;
   flex-shrink: 1;
   cursor: pointer;
+  width: 35px;
+}
+.loot .draggable:hover {
+  box-shadow: 5px 10px 5px gray;
 }
 .draggable {
   touch-action: none;
