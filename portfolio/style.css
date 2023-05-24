@@ -453,9 +453,6 @@ div {
   cursor: pointer;
   width: 35px;
 }
-.loot .draggable:hover {
-  box-shadow: 5px 10px 5px gray;
-}
 .draggable {
   touch-action: none;
 }
