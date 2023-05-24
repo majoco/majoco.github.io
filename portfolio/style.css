@@ -489,8 +489,11 @@ div {
   padding: 5%;
   z-index: 9;
 }
-
-.about h2 h3 {
+.about h2 {
+  color: black;
+  z-index: 9;
+}
+.about h3 {
   color: black;
   z-index: 9;
 }
