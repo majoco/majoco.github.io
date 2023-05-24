@@ -484,6 +484,7 @@ div {
 
 .about h2 {
   color: black;
+  z-index: 9;
 }
 .about .container {
   display: flex;
