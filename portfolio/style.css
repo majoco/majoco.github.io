@@ -497,6 +497,10 @@ div {
   position: relative;
   font-family: "Mada", sans-serif;
 }
+.about .wrapper{
+  max-width: 1064px;
+  margin: auto;
+}
 .about h2 {
   color: black;
   z-index: 9;
