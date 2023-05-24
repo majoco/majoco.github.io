@@ -472,8 +472,11 @@ div {
   top: 85vh;
   height: 15vh;
 }
+#home > div {
+  z-index: 10;
+}
 
-#div_about {
+.div_white {
   height: 100vh;
   background: white;
   padding: 5%;
