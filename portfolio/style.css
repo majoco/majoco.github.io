@@ -549,16 +549,17 @@ div {
   padding: 40px;
 }
 
-
+.s2{
+    z-index: 9;
+    position: relative;
+}
 #mCanvas{
    height: 100%;
    width: 100%;
    position: absolute;
    top: 0;
    left: 0;
-   background: #000;
-   z-index: 9;
-   position: relative;
+   background: #000;   
 }
 
 /*************************************************/
