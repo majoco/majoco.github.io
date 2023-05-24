@@ -482,6 +482,21 @@ div {
   padding: 5%;
 }
 
+.about h2 {
+  color: black;
+}
+.about .container {
+  display: flex;
+}
+.container-img-profile img {
+  width: 300px;
+  height: auto;
+}
+.container-text {
+  color: black;
+  padding: 40px;
+}
+
 @media (min-width: 1200px) {
   .css-1ecxf4 {
     flex-basis: 16.6667%;
