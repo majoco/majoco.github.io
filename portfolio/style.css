@@ -22,7 +22,8 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: Montserrat, sans-serif;
+  /*font-family: Montserrat, sans-serif;*/
+  font-family: "open sans", sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -98,6 +99,12 @@ div {
   text-decoration: none;
   vertical-align: middle;
   display: table-cell;
+
+  transition: padding 0.5s ease-in-out;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
 }
 .header-wrapper .nav span a:before {
   background-color: #fff;
@@ -482,7 +489,7 @@ div {
   padding: 5%;
 }
 
-.about h2 {
+.about h2 h3 {
   color: black;
   z-index: 9;
 }
