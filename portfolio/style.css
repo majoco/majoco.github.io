@@ -18,6 +18,8 @@ body {
 
   background-image: none;
   background-color: #711ae2;
+
+  font-family: "Mada", sans-serif;
 }
 
 * {
@@ -493,6 +495,7 @@ div {
   padding: 5%;
   z-index: 9;
   position: relative;
+  font-family: "Mada", sans-serif;
 }
 .about h2 {
   color: black;
@@ -502,6 +505,10 @@ div {
   color: black;
   z-index: 9;
 }
+.about p{
+  color: #252525;
+}
+
 .flex {
   display: flex;
 }
