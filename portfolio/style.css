@@ -468,8 +468,14 @@ div {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNjc5IDE5OC42Jz48cGF0aCBkPSdNODM5LjUgOTYuN0M0ODUuMyA5Ni43IDE3NC41IDU3LjkgMCAwdjE5OC42aDE2NzlWMGMtMTc0LjUgCTU3LjktNDg1LjMgOTYuNy04MzkuNSA5Ni43eicgZmlsbD0nI2ZmZicvPjwvc3ZnPg==);
 
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNjc5IDE5OC42Jz48cGF0aCBkPSdNODM5LjUgOTYuN0M0ODUuMyA5Ni43IDE3NC41IDU3LjkgMCAwdjE5OC42aDE2NzlWMGMtMTc0LjUgCTU3LjktNDg1LjMgOTYuNy04MzkuNSA5Ni43eicgZmlsbD0nI2ZmZicvPjwvc3ZnPg==);
-  top: 90vh;
-  height: 10vh;
+  top: 80vh;
+  height: 20vh;
+}
+
+#div_about {
+  height: 100vh;
+  background: white;
+  padding: 5%;
 }
 
 @media (min-width: 1200px) {
