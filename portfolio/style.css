@@ -487,6 +487,7 @@ div {
   height: 100vh;
   background: white;
   padding: 5%;
+  z-index: 9;
 }
 
 .about h2 h3 {
