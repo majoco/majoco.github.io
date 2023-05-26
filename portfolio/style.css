@@ -577,6 +577,7 @@ div {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
+  background: white;
 }
 
 #app h1 {
@@ -588,6 +589,7 @@ div {
   margin: calc(50vh - var(--lineHeight)) auto 0;
   font-size: var(--fontSize);
   text-transform: uppercase;
+  margin-bottom: 40vh;
 }
 
 #app a {
