@@ -725,7 +725,7 @@ div {
   position: absolute;
   border-radius: 50%;
   
-  $shapes: (#005ffe: 650px, #ffe5e3: 440px, #ffcc57: 270px);
+  /*$shapes: (#005ffe: 650px, #ffe5e3: 440px, #ffcc57: 270px);
   
   @each $color, $size in $shapes {
     &.shape-#{index($shapes, ($color $size))} {
@@ -734,7 +734,11 @@ div {
       height: $size;
       margin: (-$size/2) 0 0 (-$size/2);
     }
-  }
+  }*/
+}
+
+#shapes{
+  position: relative;
 }
 
 #shapes .content {
