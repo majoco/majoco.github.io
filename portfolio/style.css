@@ -626,6 +626,7 @@ div {
 }
 #contact-form>.form__inner>.row{
   display: flex;
+  text-align: left;
 }
 .col-md-6{
   width: 50%;
