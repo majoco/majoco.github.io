@@ -692,7 +692,11 @@ div {
   background-color: #5b43d6;
   border-color: #5b43d6;
 }
-
+#contact-form{
+  text-align: left;
+  float: left;
+  width: 100%;
+}
 
 /*************************************************/
 
