@@ -693,7 +693,7 @@
                   </div>
                   <div class="row">
                     <div class="col-md-12">
-                      
+
                       <form id="contact-form" method="post" enctype="text/plain">
                         <div class="form__inner">
                           <div class="row">
@@ -724,7 +724,7 @@
                             <div></div>
                             <div></div>
                           </div>
-                          <div class="text-center has-elipsis mb-5">Sending</div>
+                          <div class="text-center has-elipsis mb-5">Enviando</div>
                         </div>
                       </form>
 
@@ -743,7 +743,9 @@
                                       "Accept": "application/json",
                                   },
                               })
-                              .then(response => console.log(response))
+                              .then(response => console.log(response)
+                                alert('Se envio el mensaje');
+                                )
                               .catch(error => console.log(error))
                           }
                       </script>
