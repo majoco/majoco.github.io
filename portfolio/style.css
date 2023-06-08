@@ -633,6 +633,7 @@ div {
 }
 .form-group{
   display: grid;
+  margin-bottom: 1rem;
 }
 #contact-form label{
   color: #9c9c9c;
@@ -703,6 +704,9 @@ div {
 }
 .form__loader{
   margin-top: 10px;
+}
+.pr-md-2, .px-md-2 {
+    padding-right: 0.5rem !important;
 }
 
 
