@@ -263,6 +263,7 @@ div {
 
 .lightColor {
   background: linear-gradient(159deg, #2d2d3a, #2b2b35);
+  background: white;
   z-index: 9;
   position: relative;
 }
