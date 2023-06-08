@@ -701,6 +701,9 @@ div {
 .form__loader .has-elipsis{
   color: green;
 }
+.form__loader{
+  margin-top: 10px;
+}
 
 /*************************************************/
 
