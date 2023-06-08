@@ -452,7 +452,7 @@ div {
   margin-top: 0.2em;
   flex-shrink: 1;
   cursor: pointer;
-  width: 35px;
+  width: 30px;
 }
 .draggable {
   touch-action: none;
@@ -460,7 +460,7 @@ div {
 .loot .draggable svg {
   width: 100%;
   height: auto;
-  max-height: 3em;
+  max-height: 2em;
 }
 .loot .draggable svg .shadow {
   fill: var(--loot-shadow);
