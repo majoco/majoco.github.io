@@ -595,6 +595,35 @@
           <canvas id="mCanvas"></canvas>
         </section>-->
 
+        <section id="shapes">
+          <div class="cursor"></div>
+          <div class="shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+          </div>
+          <div class="content">
+            <h1>Hello there!</h1>
+          </div>
+        </section>
+
+        <script>
+          document.body.addEventListener("mousemove", evt => {
+            const mouseX = evt.clientX;
+            const mouseY = evt.clientY;
+
+            gsap.set(".cursor", {
+              x: mouseX,
+              y: mouseY });
+
+
+            gsap.to(".shape", {
+              x: mouseX,
+              y: mouseY,
+              stagger: -0.1 });
+
+          });
+        </script>              
 
         <div class="div_skills">
           <h4>My <span class="green">skills</span></h4>
