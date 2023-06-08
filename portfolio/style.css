@@ -613,14 +613,14 @@ div {
   width: 58.33333%;
   margin: auto;
 }
-#lightColor .row{
+.lightColor .row{
   text-align: center;
 }
 .col-md-12{
   width: 100%;
   margin: auto;
 }
-#lightColor h2{
+.lightColor h2{
   font-size: 30px;
   color: #212529;
 }
