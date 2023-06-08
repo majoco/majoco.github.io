@@ -772,10 +772,11 @@
                                       "Accept": "application/json",
                                   },
                               })
-                              .then(response => console.log(response);
+                              .then((response) => {
+                                  console.log(response);
                                   document.getElementById("msj").style="display: block;";
                                   document.getElementById("msj").innerHTML='Se envio el mensaje';
-                                )
+                                })
                               .catch(error => console.log(error))
                           }
                       </script>
