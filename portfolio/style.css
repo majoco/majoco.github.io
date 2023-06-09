@@ -778,7 +778,10 @@ div {
   opacity: 1;
 }
 .hover12 figure {
-  background: #1abc9c;
+  background: transparent;
+}
+.hover12 figure:hover {
+  background: #1abc9c !important;
 }
 .hover12 figure img {
   opacity: 1;
