@@ -598,7 +598,19 @@
         <section id="mosaico">
 
           <h4>My <span class="green">Projets</span></h4>
-          <div class="carousel">
+          <div class="carousel2">
+            <div>
+              <img class="thumb" src="https://picsum.photos/300/200?image=244" alt="html logo" />
+              <h5 class="white tac">html</h5>
+            </div>
+            <div>
+              <img class="thumb" src="https://picsum.photos/300/200?image=244" alt="css logo" />
+              <h5 class="white tac">css</h5>
+            </div>
+            <div>
+              <img class="thumb" src="https://picsum.photos/300/200?image=244" alt="css logo" />
+              <h5 class="white tac">css</h5>
+            </div>
             <div>
               <img class="thumb" src="https://picsum.photos/300/200?image=244" alt="html logo" />
               <h5 class="white tac">html</h5>
@@ -969,6 +981,12 @@
     <script type="text/javascript">
       $(document).ready(function () {
         $(".carousel").slick({
+          infinite: true,
+          slidesToShow: 6,
+          slidesToScroll: 1,
+        });
+
+        $(".carousel2").slick({
           infinite: true,
           slidesToShow: 6,
           slidesToScroll: 1,
