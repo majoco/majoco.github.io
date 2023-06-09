@@ -713,10 +713,13 @@ div {
 #mosaico{
   z-index: 9;
   position: relative;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
+  padding: 80px;
   /*background-color: #2196F3;
   padding: 10px;*/
 }
@@ -749,9 +752,10 @@ div {
 }
 .hover12 figure img {
   opacity: 1;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: .7s ease-in-out;
+  transition: .7s ease-in-out;
   width: 100%;
+  cursor: pointer;
 }
 .hover12 figure:hover img {
   opacity: .5;
