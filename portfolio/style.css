@@ -715,6 +715,7 @@ div {
   position: relative;
   padding-top: 20vh;
   padding-bottom: 20vh;
+  background: white;
 }
 .grid-container {
   display: grid;
