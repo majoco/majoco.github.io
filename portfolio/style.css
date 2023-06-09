@@ -735,6 +735,7 @@ div {
   padding: 0;
   background: #fff;
   overflow: hidden;
+  margin-bottom: -5px;
 }
 #mosaico figure:hover+span {
   bottom: -36px;
