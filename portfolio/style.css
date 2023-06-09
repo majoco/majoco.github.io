@@ -714,6 +714,12 @@ div {
   z-index: 9;
   position: relative;
 }
+#div_mosaico{
+  display: grid;
+}
+#div_mosaico .column{
+  width: 33%;
+}
 #mosaico h2 {
   margin: 60px 15px 0;
   padding: 0;
