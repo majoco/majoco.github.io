@@ -719,11 +719,13 @@ div {
   padding-top: 20vh;
   padding-bottom: 20vh;
   background: white;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 80px;
+  padding: 0px;
   /*background-color: #2196F3;
   padding: 10px;*/
 }
