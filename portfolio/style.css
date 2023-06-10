@@ -745,6 +745,17 @@ div {
   text-align: center;
 }
 
+#mosaico h4{
+  color: black;
+  z-index: 9;
+  line-height: 1.3;
+  text-transform: capitalize;
+  margin: 0 0 40px;
+  color: #1c2273;
+  color: #7689d8;
+  font-size: 32px;
+}
+
 #mosaico figure {
   width: 100%;
   height: auto;
