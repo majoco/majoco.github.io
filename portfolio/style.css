@@ -329,6 +329,9 @@ div {
   padding-top: 20vh;
   padding-bottom: 20vh;
 }
+.mt-100{
+  margin-top: -100px;
+}
 .slick-slide {
   margin: auto;
   text-align: center;
