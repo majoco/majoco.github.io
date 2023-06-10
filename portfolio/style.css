@@ -158,6 +158,8 @@ div {
   font-family: Secular One, sans-serif;
   font-size: 2rem;
   letter-spacing: 2px;
+  color: white;
+  font-weight: 800;
 }
 .texts h3 {
   font-size: 1.2rem;
