@@ -735,6 +735,7 @@ div {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 0px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   /*background-color: #2196F3;
   padding: 10px;*/
 }
@@ -744,6 +745,7 @@ div {
   padding: 20px;
   font-size: 30px;*/
   text-align: center;
+  display: grid;
 }
 
 #mosaico h4{
@@ -849,6 +851,9 @@ img.frag:hover {
     -webkit-box-flex: 0;
     flex-grow: 0;
     max-width: 16.6667%;
+  }
+  .grid-container {  
+    grid-template-columns: repeat(2, minmax(0, 1fr));  
   }
 }
 
