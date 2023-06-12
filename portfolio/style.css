@@ -836,7 +836,7 @@ img.frag:hover {
 
 /*************************************************/
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .css-1ecxf4 {
     flex-basis: 16.6667%;
     -webkit-box-flex: 0;
@@ -845,7 +845,7 @@ img.frag:hover {
   }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
   .css-1ecxf4 {
     flex-basis: 16.6667%;
     -webkit-box-flex: 0;
@@ -857,7 +857,7 @@ img.frag:hover {
   }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (max-width: 640px) {
   .skills-wrapper {
     margin: 0 8rem;
   }
@@ -880,7 +880,7 @@ img.frag:hover {
   }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .css-1ecxf4 {
     flex-basis: 33.3333%;
     -webkit-box-flex: 0;
