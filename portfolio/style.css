@@ -845,6 +845,36 @@ img.frag:hover {
   }
 }
 
+@media (max-width: 1150px){
+  .banner {
+    height: auto;
+  }
+  #home {
+    display: block;
+    height: auto;
+  }
+  .profile{
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .s2 {
+    height: auto;
+  }
+  .s2 .container-content {
+    display: block;
+    height: auto;
+  }
+
+  .profile img {
+    max-width: 400px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+
+}
+
 @media (max-width: 900px) {
   .css-1ecxf4 {
     flex-basis: 16.6667%;
@@ -855,6 +885,13 @@ img.frag:hover {
   .grid-container {  
     grid-template-columns: repeat(2, minmax(0, 1fr));  
   }
+
+  .thumb { {
+    width: 100px;
+    height: auto;
+  }
+
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -886,5 +923,9 @@ img.frag:hover {
     -webkit-box-flex: 0;
     flex-grow: 0;
     max-width: 33.3333%;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
