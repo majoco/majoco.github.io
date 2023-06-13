@@ -867,7 +867,7 @@ img.frag:hover {
   }
 
   .profile img {
-    max-width: 400px;
+    max-width: 100%;
     margin-top: 40px;
     margin-bottom: 60px;
   }
