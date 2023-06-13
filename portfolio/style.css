@@ -885,13 +885,16 @@ img.frag:hover {
   .grid-container {  
     grid-template-columns: repeat(2, minmax(0, 1fr));  
   }
-
   .thumb { {
     width: 100px;
     height: auto;
   }
+}
 
-
+@media (max-width: 810px){
+  .header-wrapper.right{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 640px) {
