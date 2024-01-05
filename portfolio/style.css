@@ -249,6 +249,7 @@ div {
   font-size: 1.25rem;
 }
 
+
 .profile {
   flex: 1 1;
   margin-top: -50px;
@@ -833,6 +834,13 @@ img.frag:hover {
   --_i: 10%;
   filter: grayscale(0);
 }
+
+
+.imagen{
+  border-radius: 100%;
+}
+
+
 
 
 /*************************************************/
