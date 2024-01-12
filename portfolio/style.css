@@ -81,6 +81,9 @@ div {
   color: #55ffdb;
   color: #01ba93;
 }
+.white {  
+  color: white;
+}
 .social p{
   color: white; 
   font-weight: bold;
@@ -312,6 +315,11 @@ div {
 .css-isbt42 > .MuiGrid-item {
   padding-left: 16px;
   padding-top: 16px;
+  width: 25%;
+  flex-basis: 16.6667%;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  max-width: 16.6667%;
 }
 .css-1ecxf4 {
   box-sizing: border-box;
@@ -354,6 +362,9 @@ div {
   height: 70vh;
   padding-top: 20vh;
   padding-bottom: 20vh;
+  background: linear-gradient(159deg,#2d2d3a,#2b2b35);
+  height: auto;
+  background: transparent;
 }
 #skills h4{
   color: black;
@@ -363,6 +374,7 @@ div {
   margin: 0 0 40px;  
   color: white;
   font-size: 32px;
+  text-align: center;
 }
 .mt-100{
   margin-top: -100px;
@@ -549,6 +561,7 @@ div {
   z-index: 9;
   position: relative;
   font-family: "Mada", sans-serif !important;
+  padding-top: 40px;
 }
 .about .wrapper{
   max-width: 1064px;
@@ -775,6 +788,7 @@ div {
   background: white;
   padding-left: 10%;
   padding-right: 10%;
+  padding-top: 120px;
 }
 .grid-container {
   display: grid;
@@ -807,6 +821,7 @@ div {
   color: #1c2273;
   color: #7689d8;
   font-size: 32px;
+  margin-bottom: 20px;
 }
 
 #mosaico figure {
@@ -954,6 +969,9 @@ img.frag:hover {
   }
 
 
+.carousel{
+  display: none !important;
+}
 .carousel2{
   display: none !important;
 }
@@ -965,8 +983,9 @@ img.frag:hover {
   display:none;
   padding:20px;
   background:#01ba93;
+  background: #7719ec;
   font-size:20px;
-  color:#fff;
+  color:#fff;  
   cursor:pointer;
   position: fixed;
   bottom:20px;
@@ -1221,7 +1240,7 @@ canvas {
       padding: 20px;
   }
 
-  .about h4 {
+  #about_h4_2 {
     font-size: 20px;
   }
   p {
