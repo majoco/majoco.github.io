@@ -1157,7 +1157,7 @@ footer{
     display: none !important;
   }
   .carousel2{
-    display: block !important;
+    display: none !important;
   }
   .carousel3{
     display: none !important;
@@ -1199,7 +1199,11 @@ footer{
   .container-text {
       padding: 30px;
   }
-  
+  .css-isbt42 > .MuiGrid-item {    
+    width: 25%;    
+    flex-basis: 25%;        
+    max-width: 25%;
+  }
 
 }
 
@@ -1233,6 +1237,13 @@ footer{
   .container-img-profile img {
       width: 70%;
   }    
+
+  .css-isbt42 > .MuiGrid-item {    
+    width: 33%;    
+    flex-basis: 33%;        
+    max-width: 33%;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -1261,7 +1272,7 @@ footer{
     display: none !important;
   }
   .carousel3{
-    display: block !important;
+    display: none !important;
   }
   .slick-slide img {
       width: 50%;
@@ -1281,6 +1292,15 @@ footer{
   #mosaico h4 {
       text-align: center;
   }
+  .container-links {
+    display: grid;
+  }
+
+  .css-isbt42 > .MuiGrid-item {    
+    width: 50%;    
+    flex-basis: 50%;        
+    max-width: 50%;
+  }
 
 }
 
@@ -1288,4 +1308,5 @@ footer{
   .slick-slide img {
       width: 70%;
   }
+
 }
