@@ -1078,6 +1078,13 @@ footer{
   background: white;
   padding-top: 40px;
   padding-bottom: 40px;
+
+  display: block;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  background: #5b43d6;
+
 }
 .container-links{
   display: flex;
@@ -1085,7 +1092,7 @@ footer{
 .link_footer{
   padding: 10px;
   color: #313140;
-  color: #7689d8;
+  color: white;
   font-family: "open sans", sans-serif;
   font-weight: 700;
   text-decoration: none;
