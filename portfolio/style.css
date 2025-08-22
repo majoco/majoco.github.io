@@ -742,6 +742,9 @@ div {
   background: #fff;
   border: 1px solid #dadada;
 }
+#msj {
+  color: #01baa1;
+}
 .mt-4,
 .my-4 {
   margin-top: 1.5rem !important;
