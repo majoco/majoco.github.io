@@ -721,6 +721,9 @@ div {
   letter-spacing: 1px;
   display: inline-block;
   margin-bottom: 0.5rem;
+  color: #01ba93;
+  font-size: 14px;
+  font-weight: 600;
 }
 #contact-form .form-control {
   display: block;
@@ -779,6 +782,8 @@ div {
   text-align: left;
   float: left;
   width: 100%;
+  padding: 40px;
+  background: #ffffff70;
 }
 .form__loader .has-elipsis {
   color: green;
