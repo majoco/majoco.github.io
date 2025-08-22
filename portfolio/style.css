@@ -605,6 +605,10 @@ div {
   color: #252525;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 18px;
+}
+.fwhite5 {
+  background: #ffffff70;
 }
 .enlace {
   color: #01ba93;
@@ -1019,6 +1023,7 @@ img.frag:hover {
 }
 .nav span:hover a {
   color: #55ffdb;
+  color: #fff700;
 }
 
 .flag-icon {
