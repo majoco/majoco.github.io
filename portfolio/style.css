@@ -937,11 +937,13 @@ img.frag:hover {
 .mobile-container > .topnav > .logo {
   display: inline-flex;
   padding: 20px;
+  padding: 3px 20px 3px 20px;
 }
 
 /*menu mobile*/
 #myLinks {
   display: none;
+  background: white;
 }
 
 #myLinks a {
@@ -950,6 +952,7 @@ img.frag:hover {
   text-decoration: none;
   font-size: 17px;
   display: block;
+  color: #7619eb;
 }
 
 #myLinks a.icon {
@@ -976,7 +979,7 @@ img.frag:hover {
 .topnav > .icon {
   float: right;
   margin-right: 20px;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .fa-navicon:before,
 .fa-reorder:before,
@@ -1026,13 +1029,13 @@ img.frag:hover {
   cursor: pointer !important;
   z-index: 20;
 }
-.nav span:hover {
+/*.nav span:hover {
   transform: scale(1.1);
 }
 .nav span:hover a {
   color: #55ffdb;
   color: #fff700;
-}
+}*/
 
 .flag-icon {
   height: 23px;

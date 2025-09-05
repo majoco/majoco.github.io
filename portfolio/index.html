@@ -78,6 +78,9 @@
         padding-right:15px;
         display:inline-block;
         vertical-align: middle;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
       }
 
       .inner-header {
@@ -86,6 +89,57 @@
         margin: 0;
         padding: 0;
       }
+
+      .div_menu{
+        margin-top: 19px;
+      }
+      .div_menu .nav{
+        background-color: white;
+        padding: 7px 7px 7px 7px;
+        border-style: none;
+        border-radius: 50px 50px 50px 50px;
+        box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.1);
+      }
+      .div_menu .nav span {
+        margin-left: 0px;
+        height: 44px;
+      }
+      .div_menu .nav span a {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-family: "Urbanist", Sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.5em;
+        text-transform: capitalize;
+        background: #7087ff;
+        background: white !important;
+        border-radius: 30px;
+        color: #333335 !important;
+        transition: all 0.5s ease-in-out;
+        width: 60px;
+      }
+      .div_menu .nav span a.active {        
+        background: #7087ff !important;        
+        color: white !important;
+      }
+      .div_menu .nav span a:hover {        
+        background: #7087ff !important;        
+        color: white !important;
+      }      
+      .div_menu .flag-icon{
+        width: 18px !important;
+        height: 12px !important;        
+      }
+      .div_menu .l_w{
+        width: 35px;
+        height: auto !important;
+        width: 30px !important;
+        margin: auto;
+        display: flex;
+      }            
 
       .flex { /*Flexbox for containers*/
         display: flex;
@@ -140,10 +194,7 @@
         color: cornsilk;        
         color: #7689d8;        
       }
-
-      .l_w{
-        width: 35px;
-      }      
+            
 
       @keyframes move-forever {
         0% {
@@ -191,8 +242,9 @@
         <div class="banner">
           <div class="header-wrapper">
             <div class="w80">
-              <div class="logo">
-                <i class="draggable potion" data-id="potion">
+              <div class="div_logo">
+                <img class="logo" src="images/logo_fr_white.png" />
+                <!--<i class="draggable potion" data-id="potion">
                         <svg xmlns="http://www.w3.org/2000/svg" width="54" height="63" viewBox="0 0 54 63">
                           <path class="shadow" d="M41.32,17.65v-4.67c0-2.02-1.51-3.7-3.46-3.96v-2.02c0-2.21-1.79-4-4-4h-9.52c-2.21,0-4,1.79-4,4v2.02c-1.95,.26-3.46,1.94-3.46,3.96v4.67c-7.26,4.3-11.86,12.24-11.86,20.73,0,13.28,10.8,24.08,24.08,24.08s24.08-10.8,24.08-24.08c0-8.49-4.6-16.43-11.86-20.73Z" fill="#14303f"></path>
                           <path d="M33.13,17.62v-7.09H16.68v7.09c-6.98,3.14-11.86,10.15-11.86,18.31,0,11.09,8.99,20.08,20.08,20.08s20.08-8.99,20.08-20.08c0-8.16-4.87-15.16-11.86-18.31Z" fill="#eaebef"></path>
@@ -207,13 +259,13 @@
                           </g>
                         </svg>
                       </i>
-                <h1>Portfolio</h1>
+                <h1>Portfolio</h1>-->
               </div>
               
-              <div class="right flex">
+              <div class="right flex div_menu">
                 <div class="nav">
                   <span>
-                    <a href="#home">Home</a>
+                    <a class="active" href="#home">Home</a>
                   </span>
                   <span>
                     <a href="#about">About</a>
@@ -227,6 +279,29 @@
                   <span>
                     <a href="#contact">Contact</a>
                   </span>
+                  <span>
+                    <a href="https://majoco.github.io/portfolio/" data-toggle="tooltip" 
+                      data-placement="top" 
+                      title="ENG">
+                      <span class="flag-icon flag-icon-usa"></span>
+                    </a>
+                  </span>
+                  <span>
+                    <a href="https://majoco.github.io/portfolio/?lang=esp" data-toggle="tooltip" 
+                        data-placement="top" 
+                        title="ESP">
+                      <span class="flag-icon flag-icon-esp"></span>
+                    </a>
+                  </span>
+                  <span>
+                    <a href="https://wa.me/+584247394943" data-toggle="tooltip" 
+                        data-placement="top" 
+                        title="ESP">
+                      <img class="l_w flag-icon" src="images/l_w.png" data-toggle="tooltip" 
+                      data-placement="top" 
+                      title="Write me" />
+                    </a>
+                  </span>                  
                 </div>
                 <div class="loot container source" id="loot">
                   <!--<i class="draggable mushroom" data-id="mushroom"
@@ -327,21 +402,7 @@
                     </svg>
                   </i>-->
                                     
-                  <i class="draggable eraser" data-id="eraser">
-                    <a href="https://wa.me/+584247394943"><img class="l_w" src="images/l_w.png" data-toggle="tooltip" 
-                      data-placement="top" 
-                      title="Write me" /></a>
-                  </i>
-                  <a href="https://majoco.github.io/portfolio/" data-toggle="tooltip" 
-                      data-placement="top" 
-                      title="ENG">
-                    <span class="flag-icon flag-icon-usa"></span>
-                  </a>
-                  <a href="https://majoco.github.io/portfolio/?lang=esp" data-toggle="tooltip" 
-                      data-placement="top" 
-                      title="ESP">
-                    <span class="flag-icon flag-icon-esp"></span>
-                  </a>
+                  
                 </div>              
               </div>
             </div>
@@ -351,12 +412,13 @@
             <!-- Top Navigation Menu -->
             <div class="topnav">
               <div class="logo">
-                <span class="green">
+                <img class="logo" src="images/logo_fr_white.png" />
+                <!--<span class="green">
                   <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="WebhookIcon">
                     <path d="M10 15h5.88c.27-.31.67-.5 1.12-.5.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5c-.44 0-.84-.19-1.12-.5H11.9c-.46 2.28-2.48 4-4.9 4-2.76 0-5-2.24-5-5 0-2.42 1.72-4.44 4-4.9v2.07c-1.16.41-2 1.53-2 2.83 0 1.65 1.35 3 3 3s3-1.35 3-3v-1zm2.5-11c1.65 0 3 1.35 3 3h2c0-2.76-2.24-5-5-5s-5 2.24-5 5c0 1.43.6 2.71 1.55 3.62l-2.35 3.9c-.68.14-1.2.75-1.2 1.48 0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5c0-.16-.02-.31-.07-.45l3.38-5.63C10.49 9.61 9.5 8.42 9.5 7c0-1.65 1.35-3 3-3zm4.5 9c-.64 0-1.23.2-1.72.54l-3.05-5.07C11.53 8.35 11 7.74 11 7c0-.83.67-1.5 1.5-1.5S14 6.17 14 7c0 .15-.02.29-.06.43l2.19 3.65c.28-.05.57-.08.87-.08 2.76 0 5 2.24 5 5s-2.24 5-5 5c-1.85 0-3.47-1.01-4.33-2.5h2.67c.48.32 1.05.5 1.66.5 1.65 0 3-1.35 3-3s-1.35-3-3-3z"></path>
                   </svg>
                 </span>
-                <h1 id="portfolio_movil">Portfolio</h1>
+                <h1 id="portfolio_movil">Portfolio</h1>-->
               </div>
               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
@@ -1191,7 +1253,7 @@
         const lang = urlParams.get("lang");
         if(lang=="esp"){
           document.getElementsByClassName("nav")[0].getElementsByTagName("a")[0].innerHTML="Inicio";
-          document.getElementsByClassName("nav")[0].getElementsByTagName("a")[1].innerHTML="Acerca de mi";
+          document.getElementsByClassName("nav")[0].getElementsByTagName("a")[1].innerHTML="Acerca";
           document.getElementsByClassName("nav")[0].getElementsByTagName("a")[2].innerHTML="Portafolio";
           document.getElementsByClassName("nav")[0].getElementsByTagName("a")[3].innerHTML="Habilidades";
           document.getElementsByClassName("nav")[0].getElementsByTagName("a")[4].innerHTML="Contacto";
