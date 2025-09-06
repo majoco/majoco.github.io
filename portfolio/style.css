@@ -221,6 +221,23 @@ div {
   -ms-transition: transform 0.5s ease;
   -o-transition: transform 0.5s ease;
   text-decoration: none;
+
+  border-radius: 20px;
+  border: 2px solid #7087ff;
+  background: white;
+  color: #7087ff !important;
+  padding: 8px 20px;
+  box-shadow: -1px 3px 5px #00000091;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: "Urbanist", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5em;
+  text-transform: capitalize;
+  margin-right: 5px;
 }
 .social {
   align-items: center;
@@ -541,7 +558,7 @@ div {
   background: linear-gradient(to bottom, #7a19f1, #332179);
   background-attachment: fixed;
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 /*#home:after {
   content: " ";
