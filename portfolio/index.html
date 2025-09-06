@@ -27,7 +27,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Montserrat:wght@100;400;500;600&family=Open+Sans:wght@400;600&family=Rubik:wght@300;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Montserrat:wght@100;400;500;600&family=Open+Sans:wght@400;600&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Rubik:wght@300;500&display=swap"
       rel="stylesheet"
     />
 
@@ -303,8 +303,8 @@
                     </a>
                   </span>                  
                 </div>
-                <div class="loot container source" id="loot">
-                  <!--<i class="draggable mushroom" data-id="mushroom"
+                <!--<div class="loot container source" id="loot">
+                  <i class="draggable mushroom" data-id="mushroom"
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="52"
@@ -400,10 +400,8 @@
                         ></path>
                       </g>
                     </svg>
-                  </i>-->
-                                    
-                  
-                </div>              
+                  </i>                                                      
+                </div>-->
               </div>
             </div>
           </div>   
@@ -429,7 +427,7 @@
                 <a class="nav-item-mobil" href="#mosaico">Portfolio</a>
                 <a class="nav-item-mobil" href="#skills">Skills</a>
                 <a class="nav-item-mobil" href="#contact">Contact</a>
-                <a class="nav-item-mobil" href="http://localhost/majoco.github.io/portfolio/"
+              <a class="nav-item-mobil" href="http://localhost/majoco.github.io/portfolio/">
                     <span class="flag-icon flag-icon-usa"></span>
                 </a>
                 <a class="nav-item-mobil" href="http://localhost/majoco.github.io/portfolio/?lang=esp">
@@ -537,7 +535,18 @@
               </div>
             </div>
             <div class="profile">
-              <img src="images/bannerImage.svg" alt="profile" />
+              <!--<img src="images/woo.jpg" alt="profile" />-->
+              <div class="carousel3">
+                <div>
+                  <img class="thumb" src="images/woo-bg.png" alt="html logo" />                  
+                </div>
+                <div>
+                  <img class="thumb" src="images/shopify-bg.png" alt="html logo" />
+                </div>
+                <div>
+                  <img class="thumb" src="images/flutter-bg.png" alt="html logo" />
+                </div>                
+              </div>
             </div>
           </div>
         </div>
@@ -562,7 +571,7 @@
 
         <section class="about s2" id="about">                  
           <div class="wrapper">            
-            <h4 id="about_h4">About <br><span class="green">Who is Francisco?</span></h4>
+            <h4 id="about_h4">About Me</h4>
             <div class="container-content flex">
               <div class="container-img-profile">
                 <img class="imagen"
@@ -912,68 +921,7 @@
             </div>
           </div>        
 
-          <div class="carousel3">
-            <div>
-              <img class="thumb" src="images/html.svg" alt="html logo" />
-              <h5 class="white tac">html</h5>
-            </div>
-            <div>
-              <img class="thumb" src="images/css.svg" alt="css logo" />
-              <h5 class="white tac">css</h5>
-            </div>
-            <div>
-              <img
-                class="thumb"
-                src="images/wordpress.png"
-                alt="wordpress logo"
-              />
-              <h5 class="grwhite taceen">wordpress</h5>
-            </div>
-            <div>
-              <img
-                class="thumb"
-                src="images/javascript.svg"
-                alt="javascript logo"
-              />
-              <h5 class="white tac">javascript</h5>
-            </div>
-            <div>
-              <img
-                class="thumb"
-                src="images/shopify.png"
-                alt="wordpress logo"
-              />
-              <h5 class="white tac">shopify</h5>
-            </div>
-            <div>
-              <img class="thumb" src="images/react.svg" alt="react logo" />
-              <h5 class="white tac">react</h5>
-            </div>
-            <div>
-              <img class="thumb" src="images/laravel.png" alt="laravel logo" />
-              <h5 class="white tac">laravel</h5>
-            </div>
-            <div>
-              <img
-                class="thumb"
-                src="images/bootstrap.svg"
-                alt="bootstrap logo"
-              />
-              <h5 class="white tac">bootstrap</h5>
-            </div>
-            <div>
-              <img class="thumb" src="images/sass.svg" alt="sass logo" />
-              <h5 class="white tac">sass</h5>
-            </div>            
-            <div>
-              <img class="thumb" src="images/github.svg" alt="github logo" />
-              <h5 class="white tac">github</h5>
-            </div>
-            <div>
-              <img class="thumb" src="images/mysql.png" alt="mysql" />
-              <h5 class="white tac">mysql</h5>
-            </div>
-          </div>  
+            
 
         </div>  
 
@@ -1228,10 +1176,12 @@
           slidesToShow: 3,
           slidesToScroll: 1,
         });
-        $(".carousel3").slick({
+        $(".carousel3").slick({                    
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
+          autoplay: true,               // Habilita el autoplay
+          autoplaySpeed: 3000,
         });
 
 
@@ -1265,7 +1215,7 @@
           document.getElementById("home_button2").innerHTML='Revisa mi CV';
           document.getElementById("home_button2").href='cv.html';
           document.getElementById("home_p2").innerHTML='Hecha un vistazo';
-          document.getElementById("about_h4").innerHTML='Acerca de mi <br><span class="green">¿Quien es Francisco?</span>';
+          document.getElementById("about_h4").innerHTML='Acerca de mi';
           document.getElementById("about_h4_2").innerHTML='Soy Ingeniero en Informática de la <a href="http://www.unet.edu.ve/" class="enlace">UNET</a> y padre de Frank Daniel';
           document.getElementById("about_p").innerHTML='🚀 Motivado por la curiosidad a nuevas tecnologias y experiencia en  diseño y programación, me apasiona dar vida a los aspectos técnicos y visuales de los productos digitales. La experiencia del usuario, los hermosos píxeles y la escritura clara y accesible; El código humano es importante para mí. Sudo los detalles. Y como seguidor de las leyes de simplicidad de John Maeda, estoy de acuerdo en que menos es más.';
           document.getElementById("about_p2").innerHTML='Soy más feliz cuando creo, aprendo, exploro y pienso en cómo mejorar las cosas. Estoy abierto a posibilidades laborales 😉';
