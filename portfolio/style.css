@@ -596,6 +596,15 @@ div {
   z-index: 10;
 }
 
+#home_h4 {
+  font-weight: 300;
+  font-size: 19px;
+}
+#home_p2 {
+  font-weight: 300;
+  font-size: 19px;
+}
+
 .about {
   height: 100%;
   background: white;
