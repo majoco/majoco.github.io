@@ -201,6 +201,7 @@ div {
 }
 .texts p {
   font-weight: 300;
+  font-size: 19px;
 }
 .texts a {
   background-color: #01be96;
@@ -238,12 +239,13 @@ div {
   line-height: 1.5em;
   text-transform: capitalize;
   margin-right: 5px;
+  margin-top: 20px;
 }
 .social {
   align-items: center;
   display: flex;
   gap: 1rem;
-  margin-top: 3rem;
+  margin-top: 20px;
 }
 .social p {
   font-size: 0.9rem;
@@ -283,6 +285,14 @@ div {
   -moz-transform: translate(-50%, -153%);
   -ms-transform: translate(-50%, -153%);
   -o-transform: translate(-50%, -153%);
+  position: relative !important;
+  top: unset;
+  transform: none;
+  left: unset;
+  margin: 0;
+  width: inherit;
+  padding: inherit;
+  height: inherit;
 }
 .css-1k33q06 {
   user-select: none;
@@ -293,6 +303,11 @@ div {
   flex-shrink: 0;
   transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   font-size: 1.25rem;
+  margin: auto;
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: auto;
 }
 
 .profile {
