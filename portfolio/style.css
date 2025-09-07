@@ -1258,7 +1258,7 @@ footer {
     display: none !important;
   }
   .carousel3 {
-    display: none !important;
+    /*display: none !important;*/
   }
 
   #mosaico_h4 {
@@ -1367,7 +1367,7 @@ footer {
     display: none !important;
   }
   .carousel3 {
-    display: none !important;
+    /*display: none !important;*/
   }
   .slick-slide img {
     width: 50%;
@@ -1394,6 +1394,9 @@ footer {
     width: 50%;
     flex-basis: 50%;
     max-width: 50%;
+  }
+  .carousel3 .slick-list {
+    width: 100%;
   }
 }
 
