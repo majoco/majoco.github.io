@@ -923,8 +923,8 @@ div {
   display: block;
 }
 .hover12 figure:hover img {
-  opacity: 0.5;
-  filter: blur(5px);
+  /*opacity: 0.5;
+  filter: blur(5px);*/
 }
 
 /* Flashing */
