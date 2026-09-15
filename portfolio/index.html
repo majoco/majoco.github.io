@@ -99,6 +99,13 @@
         border-style: none;
         border-radius: 50px 50px 50px 50px;
         box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.1);
+        background: transparent;
+        box-shadow: none;
+      }
+      .div_menu .nav span a {
+        background: transparent !important;
+        color: white !important;
+        font-size: 18px;
       }
       .div_menu .nav span {
         margin-left: 0px;
@@ -116,10 +123,14 @@
         text-transform: capitalize;
         background: #7087ff;
         background: white !important;
+        background: transparent;
         border-radius: 30px;
         color: #333335 !important;
         transition: all 0.5s ease-in-out;
         width: 60px;
+        background: transparent !important;
+        color: white !important;
+        font-size: 18px !important;
       }
       .div_menu .nav span a.active {        
         background: #7087ff !important;        
@@ -151,9 +162,9 @@
 
       .flex { /*Flexbox for containers*/
         display: flex;
-        justify-content: center;
+        /*justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: center;*/
       }
 
       .waves {
@@ -197,10 +208,9 @@
 
       .p_enlace{
         text-align: center;        
-        font-size: 20px;
-        font-weight: 600;
-        color: cornsilk;        
-        color: #7689d8;        
+        font-size: 24px;
+        font-weight: 600;              
+        color: #7087ff;        
       }
             
 
@@ -461,85 +471,21 @@
                   apply my skills to create responsive, intuitive and visually
                   appealing websites.
                 </p>
-              </div>
-              <a id="home_button" class="button" href="https://wa.me/584247394943" target="_blank"
-                >Let's talk</a
-              >
-              <a id="home_button2" class="button" href="cv-eng.html" target="_blank"
-                >Check CV</a
-              >
+              </div>              
               
               <div class="social">
-                <p id="home_p2" >Check out my</p>
-                <div
-                  class="social-icons css-y5zeoq"
-                  style="animation-delay: 1000ms"
+                <!--<p id="home_p2" >Check out my</p>-->
+                <a id="home_button" class="button" href="https://wa.me/584247394943" target="_blank"
+                  >Let's talk <img class="l_w flag-icon" src="images/l_w.png" data-toggle="tooltip" data-placement="top" title="Write me"></a
                 >
-                  <span aria-label="GutHub" class="">
-                    <a class="button"
-                      href="https://www.linkedin.com/in/francisco-ramirez-3a917077/"
-                      target="_blank"
-                    >
-                      <svg
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1k33q06"
-                        focusable="false"
-                        aria-hidden="true"
-                        viewBox="0 0 24 24"
-                        data-testid="GitHubIcon"
-                      >
-                        <path
-                          d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
-                        ></path>
-                      </svg>
-                    </a>
-                  </span>
-                </div>
-                <div
-                  class="social-icons css-y5zeoq"
-                  style="animation-delay: 1300ms"
+                <a id="home_button2" class="button" href="cv-eng.html" target="_blank"
+                  >Check CV</a
                 >
-                  <span aria-label="LinkedIn" class="">
-                    <a class="button"
-                      href="https://www.linkedin.com/in/francisco-ramirez-3a917077/"
-                      target="_blank"
-                    >
-                      <svg
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1k33q06"
-                        focusable="false"
-                        aria-hidden="true"
-                        viewBox="0 0 24 24"
-                        data-testid="LinkedInIcon"
-                      >
-                        <path
-                          d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"
-                        ></path>
-                      </svg>
-                    </a>
-                  </span>
-                </div>
-                <div
-                  class="social-icons css-y5zeoq"
-                  style="animation-delay: 1600ms"
+                <a id="home_button3" class="button" href="https://www.linkedin.com/in/francisco-ramirez-3a917077/" target="_blank"
+                  >My Linkedin</a
                 >
-                  <span aria-label="CV" class="">
-                    <a class="button"
-                      href="https://drive.google.com/drive/folders/1Z6sPf1iuAyXab8TzJMK8ykY0sG7JBvWO?usp=share_link"
-                      target="_blank"
-                    >
-                      <svg
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1k33q06"
-                        focusable="false"
-                        aria-hidden="true"
-                        viewBox="0 0 24 24"
-                        data-testid="FilePresentIcon"
-                      >
-                        <path
-                          d="M15 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V7l-5-5zM6 20V4h8v4h4v12H6zm10-10v5c0 2.21-1.79 4-4 4s-4-1.79-4-4V8.5c0-1.47 1.26-2.64 2.76-2.49 1.3.13 2.24 1.32 2.24 2.63V15h-2V8.5c0-.28-.22-.5-.5-.5s-.5.22-.5.5V15c0 1.1.9 2 2 2s2-.9 2-2v-5h2z"
-                        ></path>
-                      </svg>
-                    </a>
-                  </span>
-                </div>
+                
+                
               </div>
             </div>
             <div class="profile">
@@ -586,11 +532,37 @@
                   src="images/Francisco-Ramirez.jpg"
                   alt="head-shot of Francisco Ramirez."
                 />
+
+                <!--1<button type="button" aria-label="Boop the fox" class="-ml-4" 
+                  style="position: relative; display: block; flex-shrink: 0; width: 200px; height: 200px; padding: 0px; border: 0px; background: transparent; appearance: none; cursor: pointer; user-select: none;"
+                >
+                  <span 
+                    style="position: relative; display: block; width: 100%; height: 100%; transform-origin: 50% 78%;"
+                  >
+                    <span 
+                      style="position: absolute; inset: 0px; background-size: 300% 300%; background-repeat: no-repeat; background-image: url(&quot;images/fox-directions.webp&quot;); background-position: 100% 50%; opacity: 1;"
+                      >
+                    </span>
+                    <span 
+                      style="position: absolute; inset: 0px; background-size: 300% 300%; background-repeat: no-repeat; background-image: url(&quot;images/fox-reactions.webp&quot;); background-position: 0% 0%; opacity: 0;">
+                    </span>
+                  </span>
+                </button>-->
+
+                <!--2<a id="about_a_whatsapp" class="enlace" href="https://wa.me/584247394943" target="_blank"
+                    >Get in touch! <span class="tahefobu-icon-button-wrapper">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fab-whatsapp" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>                    </span></a
+                  >-->
+
+                  <!--3<div class="social texts">                
+                    <a id="home_button" class="button" href="https://wa.me/584247394943" target="_blank">Talk <img class="l_w flag-icon ml-icon" src="images/l_w.png" data-toggle="tooltip" data-placement="top" title="Escríbeme"></a>
+                  </div>-->
+            
               </div>
               <div class="container-text tal fwhite5">
-                <h4 id="about_h4_2">
+                <p id="about_h4_2">
                   I am Computer Engineer from the <a href="http://www.unet.edu.ve/" class="enlace">UNET</a></p>
-                </h4>                                  
+                </p>                                  
                 <p id="about_p">
                   🚀 Motivated by curiosity about new technologies and experience in design and programming, I am passionate about bringing the technical and visual aspects of digital products to life. The user experience, the beautiful pixels and the clear, accessible writing; The human code is important to me. I sweat the details. And as a follower of John Maeda's <a id="about_a_laws" class="enlace"
                     href="http://lawsofsimplicity.com/"
@@ -603,9 +575,7 @@
                   I am happiest when I create, learn, explore and think about how to improve things. I am open to job possibilities 😉
                 </p>
                 <div class="container-txt-link">
-                  <a id="about_a_whatsapp" class="enlace" href="https://wa.me/584247394943" target="_blank"
-                    >Get in touch!</a
-                  >
+                  
                 </div>
               </div>
             </div>
@@ -621,29 +591,74 @@
 
           <h4 id="mosaico_h4">Portfolio</h4>
           <!--<div class="carousel2">
-            <div>
-              <img class="thumb" src="https://picsum.photos/300/200?image=244" alt="html logo" />
-              <h5 class="white tac">html</h5>
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno">
+                  <a href="https://www.denzels.co.uk/"><figure><img src="images/denzels.png" /></figure></a>                  
+                </div>
+              </div>
+              <p class="p_enlace">Denzels</p>
             </div>
-            <div>
-              <img class="thumb" src="https://picsum.photos/300/200?image=244" alt="css logo" />
-              <h5 class="white tac">css</h5>
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno">
+                  <a href="https://www.skullcandy.com.uy/"><figure><img src="images/skullcandy.png" /></figure></a>                  
+                </div>
+              </div>
+              <p class="p_enlace">Skullcandy</p>
             </div>
-            <div>
-              <img class="thumb" src="https://picsum.photos/300/200?image=244" alt="css logo" />
-              <h5 class="white tac">css</h5>
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno">
+                  <a href="https://www.trestique.com/"><figure><img src="images/trestique.png" /></figure></a>                  
+                </div>
+              </div>
+              <p class="p_enlace">Trestique</p>
+            </div>  
+            <div class="grid-item"><div class="hover12 column">
+                <div class="grid-interno">
+                  <a href="https://trueenergysocks.com/"><figure><img src="images/trueenergy.png" /></figure></a>                  
+                </div>
+              </div>
+              <p class="p_enlace">Trueenergysocks</p>
             </div>
-            <div>
-              <img class="thumb" src="https://picsum.photos/300/200?image=244" alt="html logo" />
-              <h5 class="white tac">html</h5>
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno">
+                  <a href="https://norcal-cann.myshopify.com/"><figure><img src="images/norcal.png" /></figure></a>                  
+                </div>
+              </div>
+              <p class="p_enlace">Norcal</p>
             </div>
-            <div>
-              <img class="thumb" src="https://picsum.photos/300/200?image=244" alt="css logo" />
-              <h5 class="white tac">css</h5>
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno">
+                  <a href="https://mint.789.com.mx/"><figure><img src="images/mint.png" /></figure></a>                  
+                </div>
+              </div>
+              <p class="p_enlace">Mint</p>
+            </div>  
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno">
+                  <a href="https://www.spellbrite.com/"><figure><img src="images/spellbrite.png" /></figure></a>                  
+                </div>
+              </div>
+              <p class="p_enlace">Spellbrite</p>
             </div>
-            <div>
-              <img class="thumb" src="https://picsum.photos/300/200?image=244" alt="css logo" />
-              <h5 class="white tac">css</h5>
+            <div class="grid-item"><div class="hover12 column">
+                <div class="grid-interno">
+                  <a href="https://www.ramo.com.co/"><figure><img src="images/ramo.png" /></figure></a>                  
+                </div>
+              </div>
+              <p class="p_enlace">Ramo</p>
+            </div>
+            <div class="grid-item"><div class="hover12 column">
+                <div class="grid-interno">
+                  <a href="https://texastbonesteakhouse.com/"><figure><img src="images/texas.png" /></figure></a>                  
+                </div>
+              </div>
+              <p class="p_enlace">Texas</p>
             </div>
           </div>-->
 
@@ -802,7 +817,7 @@
           </div>
 
 
-          <div class="carousel">
+          <!--<div class="carousel">
             <div>
               <img class="thumb" src="images/html.svg" alt="html logo" />
               <h5 class="white tac">html</h5>
@@ -863,10 +878,10 @@
               <img class="thumb" src="images/mysql.png" alt="mysql" />
               <h5 class="white tac">mysql</h5>
             </div>
-          </div>
+          </div>-->
 
 
-          <div class="carousel2">
+          <!--<div class="carousel2">
             <div>
               <img class="thumb" src="images/html.svg" alt="html logo" />
               <h5 class="white tac">html</h5>
@@ -927,7 +942,7 @@
               <img class="thumb" src="images/mysql.png" alt="mysql" />
               <h5 class="white tac">mysql</h5>
             </div>
-          </div>        
+          </div>-->        
 
             
 
@@ -986,7 +1001,7 @@
                             <textarea name="message" class="form-control" rows="5" id="message" required=""></textarea>
                           </div>
                           <div class="text-center mt-4">
-                            <button id="contact_button_send" type="submit" class="btn btn-primary">Send</button>
+                            <button id="contact_button_send" type="submit" class="button btn btn-primary">Send</button>
                           </div>
                         </div>
                         <div id="msj" class="form__loader" style="display: none;">
@@ -1167,11 +1182,13 @@
       }
 
       $(document).ready(function () {
-        $(".carousel").slick({
+        /*$(".carousel").slick({
           infinite: true,
           slidesToShow: 4,
           slidesToScroll: 1,
-        });
+          autoplay: true,               // Habilita el autoplay
+          autoplaySpeed: 3000,
+        });*/
 
         /*$(".carousel2").slick({
           infinite: true,
@@ -1183,7 +1200,10 @@
           infinite: true,
           slidesToShow: 3,
           slidesToScroll: 1,
+          autoplay: true,               // Habilita el autoplay
+          autoplaySpeed: 3000,
         });
+
         $(".carousel3").slick({                    
           infinite: true,
           slidesToShow: 1,
@@ -1202,9 +1222,14 @@
         $(window).scroll(function(){
           if( $(this).scrollTop() > 0 ){
             $('.ir-arriba').slideDown(300);
+            document.getElementsByClassName("header-wrapper")[0].className = "header-wrapper header-wrapper-violet";
           } else {
             $('.ir-arriba').slideUp(300);
+            document.getElementsByClassName("header-wrapper")[0].className = "header-wrapper";
           }
+          console.log($(this).scrollTop());
+          console.log('header-wrapper');
+          
         });
 
         const urlParams = new URLSearchParams(window.location.search);
@@ -1217,17 +1242,17 @@
           document.getElementsByClassName("nav")[0].getElementsByTagName("a")[4].innerHTML="Contacto";
 
           document.getElementById("home_h4").innerHTML='Hola <span class="">soy</span>';
-          document.getElementById("home_h3").innerHTML='Desarrollador Frontend y Backend';
-          document.getElementById("home_p").innerHTML='Me apasiona la tecnología y me encanta crear experiencias únicas en la web. A lo largo de mi carrera he trabajado en proyectos desafiantes, donde he tenido la oportunidad de aplicar mis habilidades para crear sitios web responsivos, intuitivos y visualmente atractivos.';
-          document.getElementById("home_button").innerHTML='Hablemos';
-          document.getElementById("home_button2").innerHTML='Revisa mi CV';
-          document.getElementById("home_button2").href='cv.html';
-          document.getElementById("home_p2").innerHTML='Hecha un vistazo';
+          document.getElementById("home_h3").innerHTML='Desarrollador Web y Aplicaciones Moviles Full-Stack';
+          document.getElementById("home_p").innerHTML='Me apasiona ayudar marcas y agencias a escarlar tiendas online mediante el desarrollo de plugins y aplicaciones con funcionalidades a la medida, diseños personalizados, sincronizaciones con REST APIs, dominio avanzado en backend y frontend (WordPress, Shopify, Flutter, Node.js, Laravel) me permiten construir soluciones robustas de calidad y de alto rendimiento';
+          document.getElementById("home_button").innerHTML='Hablemos <img class="l_w flag-icon ml-icon" src="images/l_w.png" data-toggle="tooltip" data-placement="top" title="Escríbeme">';
+          document.getElementById("home_button2").innerHTML='Mi CV <img class="l_w flag-icon ml-icon" src="images/cv.png" title="Mi CV">';
+          document.getElementById("home_button2").href='cv.html';          
+          document.getElementById("home_button3").innerHTML='Mi Linkedin <img class="l_w flag-icon ml-icon" src="images/linkedin-icon-white.png" title="My Linkedin">';
           document.getElementById("about_h4").innerHTML='Acerca de mi';
-          document.getElementById("about_h4_2").innerHTML='Soy Ingeniero en Informática de la <a href="http://www.unet.edu.ve/" class="enlace">UNET</a> y padre de Frank Daniel';
-          document.getElementById("about_p").innerHTML='🚀 Motivado por la curiosidad a nuevas tecnologias y experiencia en  diseño y programación, me apasiona dar vida a los aspectos técnicos y visuales de los productos digitales. La experiencia del usuario, los hermosos píxeles y la escritura clara y accesible; El código humano es importante para mí. Sudo los detalles. Y como seguidor de las leyes de simplicidad de John Maeda, estoy de acuerdo en que menos es más.';
-          document.getElementById("about_p2").innerHTML='Soy más feliz cuando creo, aprendo, exploro y pienso en cómo mejorar las cosas. Estoy abierto a posibilidades laborales 😉';
-          document.getElementById("about_a_whatsapp").innerHTML='¡Ponerse en contacto!';
+          document.getElementById("about_h4_2").innerHTML='🚀 Ingeniero en Informática (<a href="http://www.unet.edu.ve/" class="enlace">UNET</a>) con más de 15 años de experiencia en desarrollo Full-Stack, arquitectura de e-commerce y aplicaciones web/móviles.';
+          document.getElementById("about_p").innerHTML='🎯 Me especializo en conectar el backend y el frontend para construir soluciones digitales robustas y de alto rendimiento. Experto en transformar requerimientos de negocio complejos en plataformas escalables mediante WordPress avanzado, Shopify, React, Flutter, Laravel y Nest, implementando plugins a medida, diseños personalizados y sincronizaciones complejas vía REST APIs y GraphQL.';
+          document.getElementById("about_p2").innerHTML='🔥 Apasionado por la simplicidad técnica, la optimización de rendimiento y el código limpio. Ayudo a marcas y agencias internacionales a automatizar operaciones, eliminar cuellos de botella técnicos y maximizar conversiones bajo un enfoque orientado a resultados.';
+          document.getElementById("about_a_whatsapp").innerHTML='¡Ponerse en contacto! <span class="tahefobu-icon-button-wrapper"><svg aria-hidden="true" class="e-font-icon-svg e-fab-whatsapp" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg></span>';
           document.getElementById("mosaico_h4").innerHTML='<span class="green">Portafolio</span>';
           document.getElementById("skills_h4").innerHTML='Habilidades';
           document.getElementById("contact_h2").innerHTML='Contacto';
