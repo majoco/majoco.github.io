@@ -881,6 +881,21 @@ div {
   border-radius: 14px 14px 0px 0px;
 }
 
+footer .container-content.flex{
+  max-width: 1200px;
+  margin: auto;
+}
+.text_footer{
+  margin: auto;
+  color: #cecbcb !important;
+}
+.link_footer{
+  transition: 0.8s;
+}
+.link_footer:hover {
+  color: #f7ee0a;
+}
+
 
 #app {
   margin: 0;
