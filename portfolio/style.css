@@ -93,6 +93,15 @@ div {
   color: white;
   font-weight: bold;
 }
+.social .btn p{
+  margin: auto;
+}
+
+.flag-icon {
+  margin-top: -5px;
+  margin-left: 5px;
+}
+
 .css-vubbuv {
   user-select: none;
   width: 1em;
@@ -689,6 +698,7 @@ div {
   z-index: 9;
   position: relative;
   font-family: "Mada", sans-serif !important;  
+  padding-top: 22px !important;
 }
 
 .about .wrapper {
@@ -721,8 +731,8 @@ div {
   font-size: 32pxf;*/
 
   color: #252525;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 40px;
     font-size: 18px;
 }
 #about_h4 {
@@ -775,6 +785,102 @@ div {
   left: 0;
   background: white;
 }
+
+.card{
+  border: 1px solid gray;
+  padding: 0px;
+  border-radius: 14px;
+  background: white;  
+  display: grid;
+  box-shadow: 0px 0px 15px #002bab8a !important;
+  transition: 0.6s;
+}
+
+.card:hover{  
+  box-shadow: 0px 0px 30px #002bab8a !important;
+  transform: translateY(-5px);
+}
+
+.card_title{
+  color: #01ba93;
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: normal;
+  padding-bottom: 0px;
+}
+.card_subtitle{
+  color: #ffa500;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 7px;
+}
+.card_enlace{
+  text-align: left;
+  display: block;
+  padding: 0px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #7689d8;  
+  padding-bottom: 7px;
+}
+.card_enlace:hover{
+  color: #01ba93;
+}
+.card_text{
+  font-size: 14px;
+  text-align: left;
+  padding: 2px 20px 7px 20px;
+  color: #323131;  
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.card_text2{
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  padding: 2px 20px 4px 20px;
+  color: #323131;  
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.card_text3{
+  font-size: 14px;
+  text-align: left;
+  padding: 2px 20px 7px 20px;
+  color: #323131;  
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.card_scroll{
+  overflow-y: scroll;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card .dflex{
+  display: ruby !important;
+  float: left;
+  text-align: left;
+  padding: 0px 20px 20px 20px;
+}
+.card_tag{
+  font-size: 14px;
+  background: orange;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  box-shadow: -2px 2px 7px gray;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+.card figure{
+  border-radius: 14px 14px 0px 0px;
+}
+
 
 #app {
   margin: 0;
@@ -1007,10 +1113,9 @@ div {
   padding: 0;
   background: #fff;
   overflow: hidden;
-  margin-bottom: -5px;
 }
 #mosaico figure:hover + span {
-  bottom: -36px;
+  /*bottom: -36px;*/
   opacity: 1;
 }
 .hover12 figure {
@@ -1159,6 +1264,7 @@ img.frag:hover {
 .carousel3 .slick-list {
   width: 480px;
   margin: auto;
+  /*width: 100%;*/
 }
 
 .ir-arriba {
@@ -1351,7 +1457,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 1150px) {
+/*@media screen and (max-width: 768px) {
   .banner {
     height: auto;
   }
@@ -1381,6 +1487,8 @@ footer {
     text-align: center;
   }
 
+
+
   .carousel {
     display: none !important;
   }
@@ -1388,7 +1496,7 @@ footer {
     display: none !important;
   }
   .carousel3 {
-    /*display: none !important;*/
+    
   }
 
   #mosaico_h4 {
@@ -1397,7 +1505,7 @@ footer {
   #skills_h4 {
     text-align: center;
   }
-}
+}*/
 
 /*@media screen and (max-width: 900px) {  
   #contact .col-md-7 {
@@ -1405,7 +1513,79 @@ footer {
   }
 }*/
 
+.btn {
+  display: flex;
+  /*background-color: DodgerBlue;*/
+  background-image: linear-gradient(00deg, #034198 0%, #7087ff 100%);
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 7px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  margin-top: 20px;
+
+      border-width: 2px;
+    border-color: #034199;
+    border-style: solid;
+    background-image: linear-gradient(00deg, #034198 0%, #7087ff 100%);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto auto;
+    background-position: 0% 0%;
+    box-shadow: 0px 0px 12px #9b9696d4;
+    cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
+}
+
 @media screen and (max-width: 900px) {
+
+  #home {
+    display: block;
+  }
+
+  .social {
+    display: block;
+  }
+
+  .carousel3{
+    top: 0px;
+    transform: none;
+  }
+
+  .flex {
+    display: block !important;
+  }
+
+  .card_scroll {    
+    height: auto;
+  }
+
+  .social a {            
+    padding-bottom: 5px;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .flag-icon {
+    display: inline-flex;
+    margin-top: 0px;
+  }
+
+  .btn {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+
   .css-1ecxf4 {
     flex-basis: 16.6667%;
     -webkit-box-flex: 0;

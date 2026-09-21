@@ -101,6 +101,12 @@
         box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.1);
         background: transparent;
         box-shadow: none;
+
+        background-color: white;
+        padding: 7px 7px 7px 7px;
+        border-style: none;
+        border-radius: 50px 50px 50px 50px;
+        box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.1);
       }
       .div_menu .nav span a {
         background: transparent !important;
@@ -129,8 +135,8 @@
         transition: all 0.5s ease-in-out;
         width: 60px;
         background: transparent !important;
-        color: white !important;
-        font-size: 18px !important;
+        /*color: white !important;*/
+        /*font-size: 18px !important;*/
       }
       .div_menu .nav span a.active {        
         background: #7087ff !important;        
@@ -283,19 +289,19 @@
               <div class="right flex div_menu">
                 <div class="nav">
                   <span>
-                    <a class="active" href="#home">Home</a>
+                    <a id="m1" class="active" href="#home">Home</a>
                   </span>
                   <span>
-                    <a href="#about">About</a>
+                    <a id="m2" href="#about">About</a>
                   </span>                
                   <span>
-                    <a href="#mosaico">Portfolio</a>
+                    <a id="m3" href="#mosaico">Portfolio</a>
                   </span>
                   <span>
-                    <a href="#skills">Skills</a>
+                    <a id="m4" href="#skills">Skills</a>
                   </span>
                   <span>
-                    <a href="#contact">Contact</a>
+                    <a id="m5" href="#contact">Contact</a>
                   </span>
                   <span class="w44">
                     <a href="https://majoco.github.io/portfolio/" data-toggle="tooltip" 
@@ -475,9 +481,10 @@
               
               <div class="social">
                 <!--<p id="home_p2" >Check out my</p>-->
-                <a id="home_button" class="button" href="https://wa.me/584247394943" target="_blank"
-                  >Let's talk <img class="l_w flag-icon" src="images/l_w.png" data-toggle="tooltip" data-placement="top" title="Write me"></a
-                >
+                <!--<a id="home_button" class="button" href="https://wa.me/584247394943" target="_blank"
+                  ><p>Let's talk <img class="l_w flag-icon" src="images/l_w.png" data-toggle="tooltip" data-placement="top" title="Write me"></p></a
+                >-->
+                <button id="home_button" class="btn"><p>Let's talk</p> <img class="l_w flag-icon" src="images/l_w.png" /></button>
                 <a id="home_button2" class="button" href="cv-eng.html" target="_blank"
                   >Check CV</a
                 >
@@ -663,7 +670,218 @@
           </div>-->
 
           <div class="grid-container">
+
             <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno card">                  
+                    <figure><img src="images/venmultiservices.png" /></figure>                  
+                    <h3 class="card_title">Multi Services</h3>
+
+                    <div class="card_scroll">
+                      <a class="card_enlace" href="https://venmultiservices.com/">www.venmultiservices.com</a>
+                      <p class="card_text">Desarrollo de una plataforma corporativa web y de servicios con un tema personalizado en WordPress y optimización extrema de rendimiento para el mercado de Nueva York y Nueva Jersey, logrando un sitio web rápido y seguro enfocado en maximizar la conversión de clientes para servicios de seguros e impuestos.</p>
+                      <div class="dflex">
+                        <p class="card_tag">Wordpress</p>                      
+                        <p class="card_tag">PHP</p>
+                        <p class="card_tag">HTML</p>
+                        <p class="card_tag">CSS</p>
+                        <p class="card_tag">Javascript</p>
+                        <p class="card_tag">Plugins</p>                      
+                        <p class="card_tag">Responsive Design</p>
+                      </div>                  
+                    </div>
+                </div>
+              </div>              
+            </div>
+
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno card">                  
+                    <figure><img src="images/loro.png" /></figure>                  
+                    <h3 class="card_title">Distribuidora El Loro Valera</h3>                    
+                    
+                    <div class="card_scroll">
+                      <a class="card_enlace" href="https://distribuidoraellorovalera.com/">www.distribuidoraellorovalera.com</a>
+                      
+                      <p class="card_text2"></p>
+                      <p class="card_text3">E-commerce con sincronización ERP en tiempo real y plugins a medida para la automatización de la gestión operativa mediante el desarrollo desde cero de plugins personalizados en PHP que ejecutan una sincronización bidireccional vía REST APIs entre WooCommerce y el sistema ERP local ADN, eliminando la carga manual en la actualización de inventarios y precios.</p>
+                      <!--<p class="card_text">Sitio informativo con diversos servicios de pagos de Impuestos, Seguros, Corporaciones y demas Servicios en New York, New Jersey Estados Unidos, basada en Wordpress con theme personalizado</p>-->
+                      <div class="dflex">
+                        <p class="card_tag">Wordpress</p>
+                        <p class="card_tag">Woocommerce</p>
+                        <p class="card_tag">PHP</p>
+                        <p class="card_tag">REST APIs</p>
+                        <p class="card_tag">MySQL</p>
+                        <p class="card_tag">Javascript</p>
+                        <p class="card_tag">HTML</p>
+                        <p class="card_tag">CSS</p>                        
+                        <p class="card_tag">Plugins</p>
+                      </div>                  
+                    </div>
+                </div>
+              </div>              
+            </div>    
+
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno card">                  
+                    <figure><img src="images/denzels2.png" /></figure>                  
+                    <h3 class="card_title">Denzel's</h3>
+
+                    <div class="card_scroll">
+                      <a class="card_enlace" href="https://www.denzels.co.uk/">www.denzels.co.uk</a>
+                      <p class="card_text">Arquitectura Shopify adaptada al mercado británico para una marca de consumo masivo de galletas para mascotas, con una identidad visual única y componentes a medida como tipografías, paletas de colores corporativas, componentes gráficos y layouts provistos por el cliente para potenciar la experiencia móvil y las ventas directas al consumidor.</p>
+                      <div class="dflex">
+                        <p class="card_tag">Shopify</p>                      
+                        <p class="card_tag">Liquid</p>
+                        <p class="card_tag">HTML</p>
+                        <p class="card_tag">CSS</p>
+                        <p class="card_tag">Javascript</p>                      
+                        <p class="card_tag">Responsive Design</p>
+                        <p class="card_tag">Shopify APIs</p>
+                      </div>                  
+                    </div>
+                </div>
+              </div>              
+            </div>
+            
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno card">                  
+                    <figure><img src="images/trestique2.png" /></figure>                  
+                    <h3 class="card_title">Trestique</h3>
+                    <a class="card_enlace" href="https://www.trestique.com/">www.trestique.com</a>
+
+                    <div class="card_scroll">
+                      <p class="card_text">Tienda online con módulos de productos variables y lógica de compra avanzada, generando una experiencia e-commerce de alta gama en Shopify mediante el desarrollo de módulos personalizados para la gestión de productos variables y kits, reduciendo la fricción en el flujo de compra de artículos cosméticos</p>
+
+                    <div class="dflex">
+                        <p class="card_tag">Shopify</p>                      
+                        <p class="card_tag">Liquid</p>
+                        <p class="card_tag">HTML</p>
+                        <p class="card_tag">CSS</p>
+                        <p class="card_tag">Javascript</p>                      
+                        <p class="card_tag">Responsive Design</p>
+                      </div>                  
+                    </div>
+                </div>
+              </div>              
+            </div>
+
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno card">                  
+                    <figure><img src="images/energy.png" /></figure>                  
+                    <h3 class="card_title">True Energy Socks</h3>
+
+                    <div class="card_scroll">
+                      <a class="card_enlace" href="https://trueenergysocks.com/">www.trueenergysocks.com</a>
+                      <p class="card_text">Tienda e-commerce multi-variante para la venta de medias de la marca True Energy socks, con diseño de alto rendimiento visual, optimizada para dispositivos móviles con gestión avanzada de variantes por tallas y tiempos de carga ultrarrápidos para asegurar un flujo de compra fluido.</p>
+                      <div class="dflex">
+                        <p class="card_tag">Shopify</p>                      
+                        <p class="card_tag">Liquid</p>
+                        <p class="card_tag">HTML</p>
+                        <p class="card_tag">CSS</p>
+                        <p class="card_tag">Javascript</p>                      
+                        <p class="card_tag">Responsive Design</p>
+                      </div>                  
+                    </div>
+                </div>
+              </div>              
+            </div>
+
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno card">                  
+                    <figure><img src="images/norcal2.png" /></figure>                  
+                    <h3 class="card_title">Norcal</h3>
+
+                    <div class="card_scroll">
+                      <a class="card_enlace" href="https://trueenergysocks.com/">www.trueenergysocks.com</a>
+                      <p class="card_text">Sitio web corporativo e informativo en shopify para la marca californiana Norcal que se especializa en la producción y comercialización de productos cannábicos, enfocada en la narrativa visual, el cumplimiento de la industria y una navegación intuitiva que consolida su presencia digital competitiva.
+                      <div class="dflex">      
+                        <p class="card_tag">Shopify</p>                      
+                        <p class="card_tag">Liquid</p>                                    
+                        <p class="card_tag">HTML</p>
+                        <p class="card_tag">CSS</p>
+                        <p class="card_tag">Javascript</p>                      
+                        <p class="card_tag">Responsive Design</p>
+                      </div>                  
+                    </div>
+                </div>
+              </div>              
+            </div>
+            
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno card">                  
+                    <figure><img src="images/spellbrite.png" /></figure>                  
+                    <h3 class="card_title">Spellbrite</h3>
+
+                    <div class="card_scroll">
+                      <a class="card_enlace" href="https://www.spellbrite.com/">www.spellbrite.com</a>
+                      <p class="card_text">E-commerce plugin personalizado con un sistema dinámico de productos wocommerce con precios generado en tiempo real según los caracteres y colores ingresados por el usuario en un generador interactivo de letreros de neón, automatizando por completo un proceso de venta altamente complejo</p>
+                      <div class="dflex">      
+                        <p class="card_tag">Wordpress</p>                      
+                        <p class="card_tag">PHP</p> 
+                        <p class="card_tag">Plugins</p>                                    
+                        <p class="card_tag">HTML</p>
+                        <p class="card_tag">CSS</p>
+                        <p class="card_tag">Javascript</p>                      
+                        <p class="card_tag">REST API</p>
+                      </div>                  
+                    </div>
+                </div>
+              </div>              
+            </div>
+
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno card">                  
+                    <figure><img src="images/ramo.png" /></figure>                  
+                    <h3 class="card_title">Ramo</h3>
+
+                    <div class="card_scroll">                      
+                      <a class="card_enlace" href="https://www.ramo.com.co/">www.ramo.com.co</a>
+                      <p class="card_text">Despliegue de un portal institucional y comercial de gran escala que plasma la identidad de una icónica marca de consumo masivo de Colombia especializada en ponques, pasabocas, galletas y saludables a través de una arquitectura limpia, contenido optimizado y diseño personalizado.</p>
+                      <div class="dflex">      
+                        <p class="card_tag">Wordpress</p>                      
+                        <p class="card_tag">PHP</p> 
+                        <p class="card_tag">Plugins</p>                                    
+                        <p class="card_tag">HTML</p>
+                        <p class="card_tag">CSS</p>
+                        <p class="card_tag">Javascript</p>                      
+                        <p class="card_tag">Optimización SEO</p>
+                      </div>                  
+                    </div>
+                </div>
+              </div>              
+            </div>
+
+            <div class="grid-item">
+              <div class="hover12 column">
+                <div class="grid-interno card">                  
+                    <figure><img src="images/texas.png" /></figure>                  
+                    <h3 class="card_title">Texas TBones Steakhouse</h3>
+
+                    <div class="card_scroll">
+                      <a class="card_enlace" href="https://texastbonesteakhouse.com/">www.texastbonesteakhouse.com</a>
+                      <p class="card_text">Sitio web oficial y arquitectura de una cadena gastronómica en Estados Unidos, enfocado en optimizar la búsqueda local, la visualización móvil y la interacción del usuario con las ubicaciones y menús del restaurante</p>
+                      <div class="dflex">      
+                        <p class="card_tag">Wordpress</p>                      
+                        <p class="card_tag">PHP</p> 
+                        <p class="card_tag">Plugins</p>                                    
+                        <p class="card_tag">HTML</p>
+                        <p class="card_tag">CSS</p>
+                        <p class="card_tag">Javascript</p>                      
+                        <p class="card_tag">Optimización Mobile</p>
+                      </div>                  
+                    </div>
+                </div>
+              </div>              
+            </div>
+            
+            <!--<div class="grid-item">
               <div class="hover12 column">
                 <div class="grid-interno">
                   <a href="https://www.denzels.co.uk/"><figure><img src="images/denzels.png" /></figure></a>                  
@@ -731,7 +949,7 @@
                 </div>
               </div>
               <p class="p_enlace">Texas</p>
-            </div>  
+            </div>-->  
           </div>
           
         </section>
@@ -1227,10 +1445,82 @@
             $('.ir-arriba').slideUp(300);
             document.getElementsByClassName("header-wrapper")[0].className = "header-wrapper";
           }
-          console.log($(this).scrollTop());
-          console.log('header-wrapper');
+          /*console.log($(this).scrollTop());*/
+          /*console.log('header-wrapper');*/
           
         });
+
+
+        document.getElementById("m1").onclick = function() {
+          console.log('click_menu1');
+          m1 = document.getElementById("m1");
+          m2 = document.getElementById("m2");
+          m3 = document.getElementById("m3");
+          m4 = document.getElementById("m4");
+          m5 = document.getElementById("m5");          
+          m1.className="active";
+          m2.className="";
+          m3.className="";
+          m4.className="";
+          m5.className="";
+        };
+
+        document.getElementById("m2").onclick = function() {
+          console.log('click_menu2');
+          m1 = document.getElementById("m1");
+          m2 = document.getElementById("m2");
+          m3 = document.getElementById("m3");
+          m4 = document.getElementById("m4");
+          m5 = document.getElementById("m5");          
+          m1.className="";
+          m2.className="active";
+          m3.className="";
+          m4.className="";
+          m5.className="";
+        };
+
+        document.getElementById("m3").onclick = function() {
+          console.log('click_menu3');
+          m1 = document.getElementById("m1");
+          m2 = document.getElementById("m2");
+          m3 = document.getElementById("m3");
+          m4 = document.getElementById("m4");
+          m5 = document.getElementById("m5");          
+          m1.className="";
+          m2.className="";
+          m3.className="active";
+          m4.className="";
+          m5.className="";
+        };
+
+        document.getElementById("m4").onclick = function() {
+          console.log('click_menu4');
+          m1 = document.getElementById("m1");
+          m2 = document.getElementById("m2");
+          m3 = document.getElementById("m3");
+          m4 = document.getElementById("m4");
+          m5 = document.getElementById("m5");          
+          m1.className="";
+          m2.className="";
+          m3.className="";
+          m4.className="active";
+          m5.className="";
+        };
+
+        document.getElementById("m5").onclick = function() {
+          console.log('click_menu5');
+          m1 = document.getElementById("m1");
+          m2 = document.getElementById("m2");
+          m3 = document.getElementById("m3");
+          m4 = document.getElementById("m4");
+          m5 = document.getElementById("m5");          
+          m1.className="";
+          m2.className="";
+          m3.className="";
+          m4.className="";
+          m5.className="active";
+        };
+        
 
         const urlParams = new URLSearchParams(window.location.search);
         const lang = urlParams.get("lang");
@@ -1244,15 +1534,15 @@
           document.getElementById("home_h4").innerHTML='Hola <span class="">soy</span>';
           document.getElementById("home_h3").innerHTML='Desarrollador Web y Aplicaciones Moviles Full-Stack';
           document.getElementById("home_p").innerHTML='Me apasiona ayudar marcas y agencias a escarlar tiendas online mediante el desarrollo de plugins y aplicaciones con funcionalidades a la medida, diseños personalizados, sincronizaciones con REST APIs, dominio avanzado en backend y frontend (WordPress, Shopify, Flutter, Node.js, Laravel) me permiten construir soluciones robustas de calidad y de alto rendimiento';
-          document.getElementById("home_button").innerHTML='Hablemos <img class="l_w flag-icon ml-icon" src="images/l_w.png" data-toggle="tooltip" data-placement="top" title="Escríbeme">';
+          /*document.getElementById("home_button").innerHTML='<p>Hablemos </p><img class="l_w flag-icon ml-icon" src="images/l_w.png" data-toggle="tooltip" data-placement="top" title="Escríbeme">';
           document.getElementById("home_button2").innerHTML='Mi CV <img class="l_w flag-icon ml-icon" src="images/cv.png" title="Mi CV">';
           document.getElementById("home_button2").href='cv.html';          
-          document.getElementById("home_button3").innerHTML='Mi Linkedin <img class="l_w flag-icon ml-icon" src="images/linkedin-icon-white.png" title="My Linkedin">';
+          document.getElementById("home_button3").innerHTML='Mi Linkedin <img class="l_w flag-icon ml-icon" src="images/linkedin-icon-white.png" title="My Linkedin">';*/
           document.getElementById("about_h4").innerHTML='Acerca de mi';
           document.getElementById("about_h4_2").innerHTML='🚀 Ingeniero en Informática (<a href="http://www.unet.edu.ve/" class="enlace">UNET</a>) con más de 15 años de experiencia en desarrollo Full-Stack, arquitectura de e-commerce y aplicaciones web/móviles.';
           document.getElementById("about_p").innerHTML='🎯 Me especializo en conectar el backend y el frontend para construir soluciones digitales robustas y de alto rendimiento. Experto en transformar requerimientos de negocio complejos en plataformas escalables mediante WordPress avanzado, Shopify, React, Flutter, Laravel y Nest, implementando plugins a medida, diseños personalizados y sincronizaciones complejas vía REST APIs y GraphQL.';
           document.getElementById("about_p2").innerHTML='🔥 Apasionado por la simplicidad técnica, la optimización de rendimiento y el código limpio. Ayudo a marcas y agencias internacionales a automatizar operaciones, eliminar cuellos de botella técnicos y maximizar conversiones bajo un enfoque orientado a resultados.';
-          document.getElementById("about_a_whatsapp").innerHTML='¡Ponerse en contacto! <span class="tahefobu-icon-button-wrapper"><svg aria-hidden="true" class="e-font-icon-svg e-fab-whatsapp" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg></span>';
+          /*document.getElementById("about_a_whatsapp").innerHTML='¡Ponerse en contacto! <span class="tahefobu-icon-button-wrapper"><svg aria-hidden="true" class="e-font-icon-svg e-fab-whatsapp" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg></span>';*/
           document.getElementById("mosaico_h4").innerHTML='<span class="green">Portafolio</span>';
           document.getElementById("skills_h4").innerHTML='Habilidades';
           document.getElementById("contact_h2").innerHTML='Contacto';
