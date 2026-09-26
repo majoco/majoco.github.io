@@ -1327,7 +1327,7 @@ img.frag:hover {
   cursor: pointer;
   transition: 0.2s;
 }
-.flag-icon:hover {
+.nav .flag-icon:hover {
   transform: scale(1.1);
 }
 
