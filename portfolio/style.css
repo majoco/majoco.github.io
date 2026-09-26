@@ -1712,7 +1712,7 @@ footer {
     text-align: center;
   }
   .container-links {
-    display: grid;
+    margin-left: 40px;
   }
 
   .css-isbt42 > .MuiGrid-item {
