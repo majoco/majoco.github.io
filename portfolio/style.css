@@ -1040,6 +1040,13 @@ footer .container-content.flex{
   width: 100%;
   padding: 40px;
   background: #ffffff70;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background: #fff;
+  border: 1px solid #dadada;
+}
+#contact-form textarea{
+  height: 90px !important;
 }
 .form__loader .has-elipsis {
   color: green;
