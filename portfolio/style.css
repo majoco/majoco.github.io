@@ -1605,7 +1605,7 @@ footer {
   }
 
   .social {
-    display: block;
+    display: ruby;
   }
 
   .contenedor_laptop_animado{
@@ -1932,6 +1932,10 @@ footer {
   #mosaico {
     padding-left: 5%;
     padding-right: 5%;
+  }
+
+  .social a{
+    text-align: left;
   }
 
 }
