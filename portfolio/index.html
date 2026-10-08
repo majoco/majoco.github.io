@@ -501,7 +501,7 @@
                 </a>                                
               </div>
             </div>
-            <div class="profile">
+            <div class="profile contenedor_laptop_animado">
               <!--<img src="images/woo.jpg" alt="profile" />-->
               <div class="carousel3">
                 <div>
@@ -514,6 +514,9 @@
                   <img class="thumb" src="images/flutterbg.png" alt="html logo" />
                 </div>                
               </div>
+
+              <img class="ventana_laptop" src="http://localhost/majoco.github.io/portfolio/images/pagina-web-para-cafeteria.png" />
+
             </div>
           </div>
         </div>
@@ -541,6 +544,9 @@
             <h4 id="about_h4">About Me</h4>
             <div class="container-content flex">
               <div class="container-img-profile">
+
+                <!--<button type="button" aria-label="Boop the fox" style="position: relative; display: block; flex-shrink: 0; width: 104px; height: 104px; padding: 0px; border: 0px; background: transparent; appearance: none; cursor: pointer; user-select: none;"><span style="position: relative; display: block; width: 100%; height: 100%; transform-origin: 50% 78%;"><span style="position: absolute; inset: 0px; background-size: 300% 300%; background-repeat: no-repeat; background-image: url(&quot;/page-mascot/mascots/fox-directions.webp&quot;); background-position: 0% 100%; opacity: 1;"></span><span style="position: absolute; inset: 0px; background-size: 300% 300%; background-repeat: no-repeat; background-image: url(&quot;/page-mascot/mascots/fox-reactions.webp&quot;); background-position: 0% 0%; opacity: 0;"></span></span></button>-->
+                
                 <img class="imagen"
                   src="images/Francisco-Ramirez.jpg"
                   alt="head-shot of Francisco Ramirez."
@@ -1524,6 +1530,18 @@
           m4.className="";
           m5.className="active";
         };
+
+
+        console.log("nav-item-mobil");
+        nim = document.getElementsByClassName("nav-item-mobil");
+        for (let i = 0; i < nim.length; i++) {
+          nim[i].onclick = function() {
+            console.log('click_mobil');
+            document.getElementById("myLinks").style.display = "none";
+          };
+        }
+        
+
         
 
         const urlParams = new URLSearchParams(window.location.search);

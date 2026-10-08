@@ -539,6 +539,33 @@ div {
   margin-bottom: 2rem;
 }
 
+@keyframes entradaZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.95); /* Empieza un poco más pequeña */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Tamaño real */
+  }
+}
+
+.ventana_laptop{
+  width: 620px !important;
+  margin: auto;
+  text-align: center;
+  display: block;  
+  margin-top: -270px;  
+  animation: entradaZoom 0.6s ease-out forwards;
+}
+
+.contenedor_laptop_animado{
+  opacity: 0;
+  animation: entradaZoom 0.6s cubic-bezier(0, 0, 0.2, 1) forwards;
+  width: 50%;
+}
+
+
 .footer-wrapper {
   display: flex;
   flex-direction: column;
@@ -1564,6 +1591,13 @@ footer {
   box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
 }
 
+
+@media screen and (max-width: 1460px) {
+  .carousel3{
+    margin-left: 55px;
+  }
+}
+
 @media screen and (max-width: 900px) {
 
   #home {
@@ -1574,10 +1608,26 @@ footer {
     display: block;
   }
 
+  .contenedor_laptop_animado{
+    width: 100%;
+  }
+
   .carousel3{
     top: 0px;
     transform: none;
+
+    margin: auto;
+    float: none;
+    margin-top: 100px;
+    width: 100%;
+    max-width: calc(100% - 91px);
   }
+
+  .ventana_laptop{
+    width: 100% !important;
+    margin-top: -360px !important;
+  }
+  
 
   .flex {
     display: block !important;
@@ -1638,6 +1688,139 @@ footer {
 @media screen and (max-width: 810px) {
   .header-wrapper.right {
     display: none;
+  }
+
+  .ventana_laptop{    
+    margin-top: -230px;
+  }
+
+  .carousel3 .slick-list{
+    width: 91%;
+  }
+}
+
+@media screen and (max-width: 760px) {  
+  .ventana_laptop{    
+    margin-top: -330px !important;
+  }
+}
+
+@media screen and (max-width: 710px) {  
+  .ventana_laptop{    
+    margin-top: -310px !important;
+    margin-left: 10px !important;
+  }
+}
+
+@media screen and (max-width: 660px) {  
+  .ventana_laptop{    
+    margin-top: -290px !important;
+  }
+}
+
+@media screen and (max-width: 620px) {  
+  .ventana_laptop{    
+    margin-top: -270px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {  
+  .ventana_laptop{
+    margin-top: -320px !important;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 105% !important;
+    max-width: unset !important;
+  }
+}
+
+@media screen and (max-width: 570px) {  
+  .ventana_laptop{
+    margin-top: -300px !important;
+  }
+}
+
+
+@media screen and (max-width: 530px) {  
+  .ventana_laptop{    
+    margin-top: -280px !important;
+  }
+}
+
+
+
+@media screen and (max-width: 520px) {  
+  .ventana_laptop{    
+    width: 100% !important;
+    margin-top: -270px !important;
+  }  
+}
+
+@media screen and (max-width: 500px) {  
+  .ventana_laptop{    
+    margin-top: -260px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {  
+  .ventana_laptop{    
+    margin-top: -240px !important;
+  }
+}
+
+@media screen and (max-width: 460px) {  
+  .ventana_laptop{    
+    margin-top: -230px !important;
+  }
+}
+
+@media screen and (max-width: 440px) {  
+  .ventana_laptop{    
+    margin-top: -220px !important;
+  }
+}
+
+@media screen and (max-width: 440px) {  
+  .ventana_laptop{    
+    margin-top: -210px !important;
+  }
+}
+
+@media screen and (max-width: 420px) {  
+  .ventana_laptop{    
+    margin-top: -200px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {  
+  .ventana_laptop{    
+    margin-top: -180px !important;
+  }
+}
+
+@media screen and (max-width: 390px) {  
+  .ventana_laptop{    
+    margin-top: -180px !important;
+    width: 90% !important;
+    margin-left: 7% !important;
+  }
+}
+
+@media screen and (max-width: 380px) {  
+  .ventana_laptop{    
+    margin-top: -170px !important;
+  }
+}
+
+@media screen and (max-width: 370px) {  
+  .ventana_laptop{    
+    margin-top: -160px !important;
+  }
+}
+
+@media screen and (max-width: 360px) {  
+  .ventana_laptop{    
+    margin-top: -150px !important;
   }
 }
 
@@ -1730,10 +1913,34 @@ footer {
   .carousel3 .slick-list {
     width: 100%;
   }
+
+  .grid-interno{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .footer-wrapper {    
+    width: 90%;
+  }
+  #contact-form {
+    padding: 30px;
+  }
+  .prof-wrapper {    
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #mosaico {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
 }
 
 @media screen and (max-width: 450px) {
   .slick-slide img {
     width: 70%;
+  }
+  .container-links{
+    display: block !important;
   }
 }
