@@ -1598,6 +1598,13 @@ footer {
   }
 }
 
+    
+@media screen and (max-width: 1200px) {
+    .mobile-container {
+      z-index: 999;
+    }
+}
+
 @media screen and (max-width: 900px) {
 
   #home {
@@ -1683,6 +1690,11 @@ footer {
     flex-basis: 25%;
     max-width: 25%;
   }
+
+  #home > div {    
+    position: relative;
+  }
+
 }
 
 @media screen and (max-width: 810px) {
